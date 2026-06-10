@@ -33,6 +33,7 @@ header, footer {
 	/* text-align: center; */
 	font-size: 14px;
 	padding: 1em;
+  font-weight: 700;
 }
 
 main {

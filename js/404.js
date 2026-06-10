@@ -1,3 +1,5 @@
+console.log("404.js loaded");
+
 const btn = document.querySelector(".button-notfoundpage");
 
 if (btn) {
