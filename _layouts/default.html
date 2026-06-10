@@ -7,6 +7,9 @@
   <title>{{ page.title }}</title>
   <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
   <link rel="stylesheet" href="/css/style.css">
+  {% if page.script %}
+  <script src="{{ page.script }}"></script>
+  {% endif %}
 </head>
 
 <body>
