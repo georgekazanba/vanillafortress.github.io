@@ -10,7 +10,7 @@
 	--text-color: #fdf9cd;
 	--primary: #f5722c;
 	--secondary: #e23610;
-	--accent: #733c3f;
+	--accent: #f0e62e;
   /* --link: #ffda10;
   --link-hover: #c3ff0f; */
   --dim: #ffffff50;
@@ -81,7 +81,7 @@ nav a {
 /* INTERACTIVE ELEMENTS */
 
 button {
-	background-color: var(--accent);
+	background-color: var(--secondary);
 	color: var(--text-color);
 	border: none;
 	padding: 0.5em 1em;
@@ -94,7 +94,7 @@ button:hover {
 }
 
 a {
-	color: var(--accent);
+	color: var(--secondary);
 	text-decoration: none;
 }
 
