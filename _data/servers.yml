@@ -1,0 +1,43 @@
+- name: BBQ Party
+  region: eu
+  id: 39230336
+  connect: steam://connect/79.76.47.29
+  steam: https://steamcommunity.com/groups/BBQ_Partygoers
+  discord: https://discord.gg/h3wker9tfF
+
+- name: Pipeline.tf (EU1)
+  region: eu
+  id: 38185353
+  connect: steam://connect/46.225.59.43
+  steam: https://steamcommunity.com/groups/plr_pipeline
+
+- name: Pipeline.tf (NA1)
+  region: na
+  id: 38102671
+  connect: steam://connect/5.161.54.29
+  steam: https://steamcommunity.com/groups/plr_pipeline
+
+- name: Agartha.tf
+  region: na
+  id: 34960104
+  connect: steam://connect/178.156.190.235
+  steam: https://steamcommunity.com/groups/agarthalives/
+  website: https://agartha.tf
+
+- name: Teepawtz.tf
+  region: na
+  id: 37100662
+  connect: steam://connect/teapot.ggwp.cc:22189
+  steam: https://steamcommunity.com/groups/Teepawt
+
+- name: Fight Club Night
+  region: na
+  id: 38674597
+  connect: steam://connect/204.12.240.189:27015
+  steam: https://steamcommunity.com/groups/FightClubNight
+
+- name: TF2 Warhouse
+  region: na
+  id: 38847880
+  connect: steam://connect/50.20.251.219:9135
+  steam: https://steamcommunity.com/groups/thewarhousegroup
