@@ -133,17 +133,22 @@ a:hover {
 	border-radius: 6px;
 }
 
-.links {
-	display: flex;
-	gap: 1em;
-	flex-wrap: wrap;
-	margin-top: 0.5em;
+.links a {
+	display: inline-block;
+	padding: 0.3em 0.6em;
+	background: var(--primary);
+	color: var(--text-color);
+	border-radius: 4px;
+	text-decoration: none;
+	transition: 0.15s ease;
+	border: 1px solid transparent;
 }
 
-.links a {
-	padding: 0.3em 0.6em;
-	background: var(--dim);
-	border-radius: 4px;
+.links a:hover {
+  background: var(--secondary);
+  color: var(--text-color);
+	transform: translateY(-1px);
+	border-color: var(--accent);
 }
 
 .server:hover {
