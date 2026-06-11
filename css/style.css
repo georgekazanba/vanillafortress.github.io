@@ -125,6 +125,9 @@ a:hover {
 }
 
 .server {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
   background-color: var(--bg-secondary);
   border: 1px solid var(--dim);
   border-radius: 8px;
@@ -145,7 +148,17 @@ a:hover {
   border-radius: 6px;
 }
 
+.server-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  align-items: start;
+}
+
 .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
   font-weight: 400;
 }
 
