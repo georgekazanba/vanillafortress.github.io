@@ -10,12 +10,14 @@
   id: 38185353
   connect: steam://connect/46.225.59.43
   steam: https://steamcommunity.com/groups/plr_pipeline
+  discord: https://discord.gg/YYU6qhkeV
 
 - name: Pipeline.tf (NA1)
   region: na
   id: 38102671
   connect: steam://connect/5.161.54.29
   steam: https://steamcommunity.com/groups/plr_pipeline
+  discord: https://discord.gg/YYU6qhkeV
 
 - name: Agartha.tf
   region: na
