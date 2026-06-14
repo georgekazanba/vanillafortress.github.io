@@ -2,6 +2,7 @@
 layout: default
 title: Server List - VFTF
 description: Vanilla Fortress Server List
+script: /js/copy_ip.js
 ---
 
 <script type="application/javascript">
@@ -40,7 +41,12 @@ description: Vanilla Fortress Server List
             name="{{ s.id }}"></iframe>
 
           <div class="links">
-            <a href="{{ s.connect }}">Connect to Server</a>
+            <a href="steam://connect/{{ s.ip }}">Connect to Server</a>
+            <a
+              href="#"
+              class="copy-ip"
+              data-copy="{{ s.ip }}">Copy IP</a>
+
             {% if s.steam %}
               <a href="{{ s.steam }}">Steam Group</a>
             {% endif %}
@@ -50,6 +56,7 @@ description: Vanilla Fortress Server List
             {% if s.website %}
               <a href="{{ s.website }}">Website</a>
             {% endif %}
+
           </div>
 
         </div>

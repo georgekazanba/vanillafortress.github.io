@@ -1,44 +1,44 @@
 eu:
   - name: BBQ Party
     id: 39230336
-    connect: steam://connect/79.76.47.29
+    ip: 79.76.47.29:27015
     steam: https://steamcommunity.com/groups/BBQ_Partygoers 
     discord: https://discord.gg/h3wker9tfF
 
   - name: Pipeline.tf (EU1)
     id: 38185353
-    connect: steam://connect/46.225.59.43
+    ip: 170.23.138.191:22208
     steam: https://steamcommunity.com/groups/plr_pipeline
     discord: https://discord.gg/YYU6qhkeV
 
 na:
   - name: Pipeline.tf (NA1)
     id: 38102671
-    connect: steam://connect/46.225.59.43
+    ip: 170.23.69.133:22402
     steam: https://steamcommunity.com/groups/plr_pipeline
     discord: https://discord.gg/YYU6qhkeV
   
   - name: Agartha.tf
     region: na
     id: 34960104
-    connect: steam://connect/178.156.190.235
+    ip: 178.156.190.235:27015
     steam: https://steamcommunity.com/groups/agarthalives/
     website: https://agartha.tf
   
   - name: Teepawtz.tf
     region: na
     id: 37100662
-    connect: steam://connect/teapot.ggwp.cc:22189
+    ip: 170.23.69.133:22189
     steam: https://steamcommunity.com/groups/Teepawt
   
   - name: Fight Club Night
     region: na
     id: 38674597
-    connect: steam://connect/204.12.240.189:27015
+    ip: 204.12.240.189:27015
     steam: https://steamcommunity.com/groups/FightClubNight
   
   - name: TF2 Warhouse
     region: na
     id: 38847880
-    connect: steam://connect/50.20.251.219:9135
+    ip: 50.20.251.219.9135
     steam: https://steamcommunity.com/groups/thewarhousegroup
