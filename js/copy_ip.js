@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => { // WHY THE FUCK IS IT SO N
     btn.addEventListener("click", async (e) => {
       e.preventDefault();
       
-      const text = btn.dataset.copy;
+      const text = "connect " + btn.dataset.copy;
       if (!text) return;
 
       try {
