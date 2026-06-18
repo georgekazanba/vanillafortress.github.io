@@ -136,6 +136,11 @@ a:hover {
   border-color: #f0e62e;
 }
 
+.link-icons > img {
+  height: 37%;
+  width: 37%;
+}
+
 html,
 body {
   height: 100%;
