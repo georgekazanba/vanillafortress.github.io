@@ -2,10 +2,13 @@
 layout: default
 title: Server List - VFTF
 description: Vanilla Fortress Server List
-script: /js/copy_ip.js
+script: /assets/js/copy_ip.js
 ---
 
 <script type="application/javascript">
+  // please do not ask why this is here instead of in a script file
+  // i simply ctrl+c ctrl+v'd this from battlemetrics
+  
   window.addEventListener('message',function(e) {
   if(e.data.uid && e.data.type === 'sizeUpdate') {
     var i = document.querySelector('iframe[name="'+e.data.uid+'"]');
@@ -20,8 +23,6 @@ script: /js/copy_ip.js
     <h1>Servers</h1>
 
     <p>This page will be updated from time to time.</p>
-    <p class="ps">You can find Zesty Jesus's servers
-      <a href="https://zestyjesus.com/servers">here!</a>
     </p>
   </div>
 
