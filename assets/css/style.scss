@@ -55,14 +55,18 @@ h1,
 h2,
 h3 {
   color: $primary;
-  font-family: $ubuntu;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-h1 {
+h1,
+h2 {
   font-family: "TF2Build";
-  font-weight: 700;
+  letter-spacing: 8%;
+}
+
+h1{
+  font-size: clamp(3.25rem, 9vw, 7.8rem);
 }
 
 ul {
@@ -214,4 +218,35 @@ body {
 
 main {
   flex: 1;
+}
+
+#get-fragging{
+  display:grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 70% 30%;
+  gap:10px;
+  width:600px;
+
+  img{
+    grid-row: span 2;
+  }
+  button{
+    background: $tan-gradient;
+    border-radius: 6px;
+    height:60px;
+    align-self: center;
+    border: none;
+    font-size:28px;
+    text-align: left;
+    font-family: "TF2Build";
+    color: $secondary-bg;
+    width:90%;
+    padding-left:28px;
+    justify-self: center;
+  }
+  button:hover{
+    color:$text-color;
+    background: $red-normal;
+    cursor: pointer;
+  }
 }
